@@ -2,7 +2,7 @@
 class Mmdb < Formula
   desc "Read, import, export, diff and verify MMDB files"
   homepage "https://github.com/internetdata/mmdb"
-  version "1.0.1"
+  version "1.1.0"
   license "GPL-3.0-only"
 
   on_macos do
@@ -11,23 +11,23 @@ class Mmdb < Formula
     depends_on macos: :ventura
 
     on_arm do
-      url "https://github.com/internetdata/mmdb/releases/download/v1.0.1/mmdb_1.0.1_darwin_arm64.tar.gz"
-      sha256 "2a202469517817e4bc09335809049b3e96e7b83d53280c64493c261acb99377c"
+      url "https://github.com/internetdata/mmdb/releases/download/v1.1.0/mmdb_1.1.0_darwin_arm64.tar.gz"
+      sha256 "c8d54cd4afc06d81fbcfba4b02c65d62db24c604546b5b20d41276beae7223ed"
     end
     on_intel do
-      url "https://github.com/internetdata/mmdb/releases/download/v1.0.1/mmdb_1.0.1_darwin_amd64.tar.gz"
-      sha256 "e86f75bb582f7ebfa99247322ef1682b1038789fa4c65b866c84e82ede435570"
+      url "https://github.com/internetdata/mmdb/releases/download/v1.1.0/mmdb_1.1.0_darwin_amd64.tar.gz"
+      sha256 "98eab4353433e10ceba11130af43f11421d984877c5606dd135357e898a90e75"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/internetdata/mmdb/releases/download/v1.0.1/mmdb_1.0.1_linux_arm64.tar.gz"
-      sha256 "568b57257cf3e0e94152f94cef3d029bb95c1973b1ed439c57afa4b6f7042c5a"
+      url "https://github.com/internetdata/mmdb/releases/download/v1.1.0/mmdb_1.1.0_linux_arm64.tar.gz"
+      sha256 "2ad6115b1b0cc93d7fbfc5cf9121724dbed9000af92f0af9ca2fa9dc3e352ee6"
     end
     on_intel do
-      url "https://github.com/internetdata/mmdb/releases/download/v1.0.1/mmdb_1.0.1_linux_amd64.tar.gz"
-      sha256 "561a5257daad9b89af71fa7a88507a605164d90cc802b1833384866d46ae019e"
+      url "https://github.com/internetdata/mmdb/releases/download/v1.1.0/mmdb_1.1.0_linux_amd64.tar.gz"
+      sha256 "0cd25db103389e9a61eba1a84efb6845b7125d9a63926f0d8beb6fef742c7880"
     end
   end
 
