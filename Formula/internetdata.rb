@@ -2,7 +2,7 @@
 class Internetdata < Formula
   desc "Official CLI for the InternetData API"
   homepage "https://internetdata.io"
-  version "1.5.0"
+  version "1.5.1"
   license "MIT"
 
   on_macos do
@@ -11,23 +11,23 @@ class Internetdata < Formula
     depends_on macos: :ventura
 
     on_arm do
-      url "https://github.com/internetdata/cli/releases/download/v1.5.0/internetdata_1.5.0_darwin_arm64.tar.gz"
-      sha256 "14eaa38854f13544828acb103a6947d340b85c6b6dbf5c4edbc460b1db76c2f3"
+      url "https://github.com/internetdata/cli/releases/download/v1.5.1/internetdata_1.5.1_darwin_arm64.tar.gz"
+      sha256 "9cc9da48ebc8583335926b5f8247e4c49574c39372d59dcaacdd8662584ec539"
     end
     on_intel do
-      url "https://github.com/internetdata/cli/releases/download/v1.5.0/internetdata_1.5.0_darwin_amd64.tar.gz"
-      sha256 "fad93696f9466ba231ea8d6ebfc95e47f233dedc673bb63c7814552c93a52e60"
+      url "https://github.com/internetdata/cli/releases/download/v1.5.1/internetdata_1.5.1_darwin_amd64.tar.gz"
+      sha256 "b3542f2cbbba0d3cab0356edf38735d5f549e8e89f2ab684dbb9cd481ddfc0b6"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/internetdata/cli/releases/download/v1.5.0/internetdata_1.5.0_linux_arm64.tar.gz"
-      sha256 "f1a6fafccdbb8fb3b1a5ca2fef2388badca3a27e62320bee9d9d06f38be733de"
+      url "https://github.com/internetdata/cli/releases/download/v1.5.1/internetdata_1.5.1_linux_arm64.tar.gz"
+      sha256 "a6533d461d905ce4fd5a3a1315cbaa5e9923ca4102c835475cd2ba8210b8d7bf"
     end
     on_intel do
-      url "https://github.com/internetdata/cli/releases/download/v1.5.0/internetdata_1.5.0_linux_amd64.tar.gz"
-      sha256 "2d57ae413fd0a023dc5da32ccf9b93e20271f86ef4ecadee6cc8e07643ce6548"
+      url "https://github.com/internetdata/cli/releases/download/v1.5.1/internetdata_1.5.1_linux_amd64.tar.gz"
+      sha256 "a313f30dbb91cdbaae8111ac87047926a7c37af1fa24916e3446492daed803e2"
     end
   end
 
